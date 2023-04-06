@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/logo\ onep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+.logo {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.logo > img {
+    width: 110px;
+    
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 1px black;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+}
+
+.registro {
+    text-align: center;
+    margin-top: 40px;
+
+   
+}
+
+a {
+    padding: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    box-shadow: 1px 2px 1PX black;
+    cursor:pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.plan {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.plan > h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.plan > h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: white;
+}
+
+.plan-features {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.plan > li {
+    margin-bottom: 5px;
+}
+
+.plan-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

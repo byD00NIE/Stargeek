@@ -13,10 +13,8 @@ body {
 }
 
 .logo {
-    margin-top: 10px;
     margin-left: 15px;
-    display: flex;
-    align-items: center;
+    margin-top: 15px;
 }
 
 .logo > img {
@@ -25,14 +23,14 @@ body {
 
 .contair {
     width: 350px;
-    height: 420px;
+    height: 570px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 25px;
     padding: 20px;
     box-shadow: 3px 5px 2px black;
     background-color: #0015ff2a;
     border-radius: 1px;
-    text-align: center;
+    text-align: center;;
 }
 
 h1 {
@@ -63,24 +61,23 @@ label {
     font-size: 20px;
 }
 
-.submit {
+button {
     padding: 10px 20px;
     background-color: #4422ff;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 10px;
     border: none;
     box-shadow: 1px 2px 1PX black;
     cursor:pointer;
     border-radius: 5px;
-    text-decoration: none;
 }
 
-.submit:hover {
+button:hover {
     padding: 10px 20px;
     background-color: #0044ff;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 10px;
     border: none;
     box-shadow: 1px 2px 1PX black;
