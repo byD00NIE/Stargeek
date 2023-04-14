@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/img/fundo-branco-simples-com-linhas-suaves-em-cores-claras_476363-5220.avif);
+    background-image: url(/img/Rectangle\ 15.png);
     background-size: cover;
 }
 
@@ -23,13 +23,28 @@ header>img {
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    float: left;
 }
 
+.perfil {
+    margin-right: 15px;
+    border-radius: 200px;
+    width: 110px;
+}
 
-nav ul{
+.nickname {
+    color: white;
+    background-color: #007bff;
+    outline: none;
+    font-size: 25px;
+}
+
+nav>ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    float: left;
+    margin-right: 700px;
 }
 
 nav>ul>li {
@@ -42,14 +57,29 @@ nav>ul>li>a {
     padding: 10px;
     font-size: 25px;
     margin-right: 12px;
+    background-color: #116fd4;
+    border-radius: 20px;
 }
+
+nav>ul>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 12px;
+    background-color: #00458e;
+    border-radius: 20px;
+}
+
+section {
+}
+
 
 .novidade {
     display: flex;
     color: #007bff;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
     margin-top: 50px;
     font-size: 30px;
 }
@@ -60,6 +90,10 @@ nav>ul>li>a {
     font-size: 30px;
 }
 
+aside {
+    float: right;
+}
+
 .h2 {
     margin-top: 100px;
     margin-left: 100px;
@@ -68,15 +102,14 @@ nav>ul>li>a {
 .imagem1 {
     background-image: url(/img/chainsaw-man.webp);
     background-size: cover;
-    height: 450px;
-    width: 60%;
+    height: 350px;
+    width: 50%;
     border-radius: 17px;
     margin-top: 20px;
     box-shadow: 0px 0px 20px #007bff;
 }
 
 main {
-    
     margin: 0 auto;
 }
 
@@ -108,14 +141,18 @@ main {
 .animes>img {
     width: 200px;
     margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 7px;
 }
 
 .animes>img:hover {
     width: 200px;
-    transform: scale(1.0);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
     box-shadow: 0px 0px 2px white;
     cursor: pointer;
 }
+
 
 .mangas {
     background-color: #007bff;
@@ -136,4 +173,17 @@ main {
 .mangas>img {
     width: 200px;
     margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 7px;
 }
+
+.mangas>img:hover {
+    width: 200px;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 2px white;
+    cursor: pointer;
+}
+
+
+
