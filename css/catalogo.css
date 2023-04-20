@@ -5,8 +5,9 @@
 }
 
 body {
-    background-image: url(/img/Rectangle\ 15.png);
+    background-image: url(/img/wallpaper.jpg);
     background-size: cover;
+    
 }
 
 header {
@@ -44,7 +45,7 @@ nav>ul {
     padding: 0;
     margin: 0;
     float: left;
-    margin-right: 700px;
+    margin-right: 690px;
 }
 
 nav>ul>li {
@@ -71,8 +72,6 @@ nav>ul>li>a:hover {
     border-radius: 20px;
 }
 
-section {
-}
 
 
 .novidade {
@@ -85,9 +84,10 @@ section {
 }
 
 .novidade>h2 {
-    color: #007bff;
+    color: #ffffff;
     text-align: center;
     font-size: 30px;
+
 }
 
 aside {
@@ -115,7 +115,7 @@ main {
 
 
 .h2 {
-    color: #007bff;
+    color: #ffffff;
     margin-left: 20px;
     margin-bottom: 10px;
     font-size: 30px
@@ -185,5 +185,22 @@ main {
     cursor: pointer;
 }
 
+
+footer {
+    display: flex;
+    background-color: #a9caf8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer>h3 {
+    text-align: center;
+    margin-right: 30px;
+  }
+
+  .margin {
+    margin-left: 625px;
+  }
 
 
