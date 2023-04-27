@@ -5,13 +5,13 @@
 }
 
 body {
-    background-image: url(/img/wallpaper.jpg);
+    background-color: #004cff;
     background-size: cover;
     
 }
 
 header {
-    background-color: #007bff;
+    background-color: #0653a6a8;
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -35,10 +35,30 @@ header>img {
 
 .nickname {
     color: white;
-    background-color: #007bff;
+    background-color: #004cff;
     outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
     font-size: 25px;
+    border-radius: 25px;
 }
+
+.nickname:hover {
+    color: white;
+    background-color: #002989;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+
+
 
 nav>ul {
     list-style-type: none;
@@ -58,7 +78,7 @@ nav>ul>li>a {
     padding: 10px;
     font-size: 25px;
     margin-right: 12px;
-    background-color: #116fd4;
+    background-color: #004cff;
     border-radius: 20px;
 }
 
@@ -68,7 +88,7 @@ nav>ul>li>a:hover {
     padding: 10px;
     font-size: 25px;
     margin-right: 12px;
-    background-color: #00458e;
+    background-color: #002989;
     border-radius: 20px;
 }
 
@@ -122,7 +142,7 @@ main {
 }
 
 .animes {
-    background-color: #007bff;
+    background-color: #0653a6a8;
     padding: 30px;
     margin-top: 25px;
     display: flex;
@@ -155,7 +175,7 @@ main {
 
 
 .mangas {
-    background-color: #007bff;
+    background-color: #0653a6a8;
     padding: 30px;
     margin-top: 50px;
     display: flex;
@@ -188,7 +208,7 @@ main {
 
 footer {
     display: flex;
-    background-color: #a9caf8;
+    background-color: #004cff;
     color: #fff;
     padding: 20px;
     text-align: center;
